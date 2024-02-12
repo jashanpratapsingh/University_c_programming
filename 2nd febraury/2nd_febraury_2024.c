@@ -21,7 +21,23 @@ int main(void) {
             if(temp_h20 < 0)
                 printf("Solid State.\n");
             else
-                printf("Liquid State.\");        
+                printf("Liquid State.\"); 
+    //switch
+    printf("What formula do you want?\n");
+    printf("[1= Circumference of the circle, 2= volume of the sphere] >");
+    sacnf("%d", &option);
+    switch(option) {
+        case 1:
+            printf("Enter the radius: ");
+            scanf("%lf", &r);
+            printf("The surface is: %lf\n", circ(r));
+            break;
+        case 2:
+            printf("Enter the radius: ");
+            scanf("%lf", &r);
+            printf("The surface of the circle is: %lf\n", circ(r)
+    }
+    printf ("1=")       
     return(0);
 
 }
