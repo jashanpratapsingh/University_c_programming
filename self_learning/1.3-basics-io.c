@@ -9,9 +9,9 @@ int main()
     int y; //declaration
     y = 10; //intialization
     
-    printf("%s World\n", "Hello");
+    printf("%s World\n", "Hello"); //%s is used for writting a defined value
     
-    printf("The value of x is %d\n", x);
+    printf("The value of x is %d\n", x); // %d is used whenever we want to print a value
     printf("X: %d, Y: %d\n", x, y);
     printf("Give me a radius: ");
     
